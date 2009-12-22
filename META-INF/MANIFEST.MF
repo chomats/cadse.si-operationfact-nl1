@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.imag.adele.cadse.si.workspace.defaultoperationfactory.nl1 Fragment
+Bundle-SymbolicName: fr.imag.adele.cadse.si.workspace.defaultoperationfactory.nl1
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: fr.imag.adele.cadse.si.workspace.defaultoperationfactory;bundle-version="[2.2.1,2.3.0)"
