@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.imag.adele.cadse</groupId>
+  <artifactId>fr.imag.adele.cadse.si.workspace.defaultoperationfactory.nl1</artifactId>
+  <packaging>bundle</packaging>
+  <name>fr.imag.adele.cadse.si.workspace.defaultoperationfactory.nl1</name>
+  <version>2.3.0-SNAPSHOT</version>
+  <parent>
+  	<artifactId>fr.imag.adele.cadse.parent</artifactId>
+  	<groupId>fr.imag.adele.cadse</groupId>
+  	<version>2.3.0-SNAPSHOT</version>
+  </parent>
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Fragment-Host>fr.imag.adele.cadse.si.defaultclassreferencer;bundle-version="2.3.0.SNAPSHOT"</Fragment-Host>
+                        <Include-Resource>
+							 {maven-resources},
+							 build.properties=build.properties,
+							plugin_fr_FR.properties=plugin_fr_FR.properties
+			            </Include-Resource> 
+			            <Export-Package>!*</Export-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
