@@ -3,8 +3,7 @@ Private-Package: .,fr.imag.adele.fede.workspace.si.defaultoperationfac
  tory
 Built-By: chomats
 Tool: Bnd-0.0.357
-Bundle-Name: fr.imag.adele.cadse.si.workspace.defaultoperationfactory.
- nl1
+Bundle-Name: fr.imag.adele.cadse.si.defaultoperationfactory.nl1
 Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
 Fragment-Host: fr.imag.adele.cadse.si.defaultclassreferencer;bundle-ve
@@ -12,7 +11,7 @@ Fragment-Host: fr.imag.adele.cadse.si.defaultclassreferencer;bundle-ve
 Build-Jdk: 1.6.0_17
 Bundle-Version: 2.3.0.SNAPSHOT
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: fr.imag.adele.cadse.si.workspace.defaultoperation
- factory.nl1;singleton:=true
+Bundle-SymbolicName: fr.imag.adele.cadse.si.defaultoperationfactory.nl
+ 1;singleton:=true
 Bundle-DocURL: http://www-adele.imag.fr/
 
