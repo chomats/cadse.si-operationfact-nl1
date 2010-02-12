@@ -1,15 +1,15 @@
 Manifest-Version: 1.0
 Private-Package: .,fr.imag.adele.fede.workspace.si.defaultoperationfac
  tory
-Built-By: chomats
+Built-By: etienne
 Tool: Bnd-0.0.357
 Bundle-Name: fr.imag.adele.cadse.si.defaultoperationfactory.nl1
 Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
 Fragment-Host: fr.imag.adele.cadse.si.defaultclassreferencer;bundle-ve
  rsion="2.3.0.SNAPSHOT"
-Build-Jdk: 1.6.0_17
-Bundle-Version: 2.3.0.SNAPSHOT
+Build-Jdk: 1.6.0_0
+Bundle-Version: 2.3.0.SNAPSHOT-201002121709
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: fr.imag.adele.cadse.si.defaultoperationfactory.nl
  1;singleton:=true
